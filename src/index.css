@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+  margin-left: 5rem;
+  padding: 1rem;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgb(0, 0, 0);
+  background-color: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-golden: #DCCA87;
+  --color-black: #0C0C0C;
+  --color-gray: #545454;
+  --color-crimson: #F5EFDB;
+  --color-grey: #AAAAAA;
+  --color-white: #FFFFFF;
+  --color-yellow: #FFFF00;
+  --color-salmon: #E98973;
+  --color-khaki: #C4AC95;
+  --color-bluegray: #658EA9;
+  --color-tan: #94553D;
+  --color-peach: #FFCBA4;
+  --color-cream: #F3ECDA;
+  --color-lightblue: #00d2ff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
